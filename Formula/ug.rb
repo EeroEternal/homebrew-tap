@@ -1,22 +1,22 @@
 class Ug < Formula
   desc "Lightweight, local-first LLM gateway for developers"
   homepage "https://github.com/EeroEternal/unigateway"
-  version "0.9.13"
+  version "0.9.14"
   license "MIT"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/EeroEternal/unigateway/releases/download/v0.9.13/ug-aarch64-apple-darwin.tar.gz"
-      sha256 "005da1d797eb7ad4483faeadf4da6d5d15309dca177f2be99ee5f52241f3a10c"
+      url "https://github.com/EeroEternal/unigateway/releases/download/v0.9.14/ug-aarch64-apple-darwin.tar.gz"
+      sha256 "ef20dcb2d6003bf91b63eca37730ed748e7810d7f31c239a932737d20975307d"
     else
-      url "https://github.com/EeroEternal/unigateway/releases/download/v0.9.13/ug-x86_64-apple-darwin.tar.gz"
-      sha256 "7067a20f7a3a1e290dc6e9c976e10b7648d287bcac57657f14af3be98072d2ef"
+      url "https://github.com/EeroEternal/unigateway/releases/download/v0.9.14/ug-x86_64-apple-darwin.tar.gz"
+      sha256 "760d320b4e83c60c4d756058306e698ef347d114cf7ea06d4e97a59bcc8ec3d7"
     end
   end
 
   on_linux do
-    url "https://github.com/EeroEternal/unigateway/releases/download/v0.9.13/ug-x86_64-unknown-linux-gnu.tar.gz"
-    sha256 "028ca5371e8df093817faed16f93ba4cc21494e38d03f3fe3fa8d64919542f1c"
+    url "https://github.com/EeroEternal/unigateway/releases/download/v0.9.14/ug-x86_64-unknown-linux-gnu.tar.gz"
+    sha256 "af1e676a0599d46b02e4ee96c9ff847294c798443d2006695a2fcdef837cb3c8"
   end
 
   def install
